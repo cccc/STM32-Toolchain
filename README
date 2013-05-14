@@ -1,9 +1,9 @@
 arm-none-eabi toolchain builder
 
 Binutils 2.22
-GCC 4.7.1
-Newlib 1.20.0
-GDB 7.5
+GCC 4.8.0
+Newlib 2.0.0
+GDB 7.5.1
 OpenOCD 0.6.0-rc1 (with stlink protocol enabled)
 stlink master branch from https://github.com/texane/stlink
 

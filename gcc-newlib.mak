@@ -1,11 +1,11 @@
-GCC_VERSION    	:= 4.7.1
+GCC_VERSION    	:= 4.8.0
 GCC_SOURCE     	:= $(TOOLCHAIN_SRCDIR)/gcc-$(GCC_VERSION).tar.bz2
 GCC_DOWNLOAD   	:= http://ftp.gnu.org/gnu/gcc/gcc-$(GCC_VERSION)/gcc-$(GCC_VERSION).tar.bz2
-GCC_PATCHES    	:= $(TOOLCHAIN_PATCHDIR)/gcc_4.7.1_multilib.diff
+GCC_PATCHES    	:= $(TOOLCHAIN_PATCHDIR)/gcc_4.8.0_multilib.diff
 
-NEWLIB_VERSION 	:= 1.20.0
+NEWLIB_VERSION 	:= 2.0.0
 NEWLIB_SOURCE  	:= $(TOOLCHAIN_SRCDIR)/newlib-$(NEWLIB_VERSION).tar.gz
-NEWLIB_DOWNLOAD	:= ftp://sources.redhat.com/pub/newlib/newlib-$(NEWLIB_VERSION).tar.gz
+NEWLIB_DOWNLOAD	:= ftp://sourceware.org/pub/newlib/newlib-$(NEWLIB_VERSION).tar.gz
 NEWLIB_PATCHES 	:= 
 
 # Hack to build on OS X.

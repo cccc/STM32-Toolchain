@@ -1,6 +1,6 @@
 OPENOCD_VERSION    := 0.6.1
 OPENOCD_SOURCE     := $(TOOLCHAIN_SRCDIR)/openocd-$(OPENOCD_VERSION).tar.bz2
-OPENOCD_DOWNLOAD   := http://ignum.dl.sourceforge.net/project/openocd/openocd/$(OPENOCD_VERSION)/openocd-$(OPENOCD_VERSION).tar.bz2
+OPENOCD_DOWNLOAD   := http://downloads.sourceforge.net/project/openocd/openocd/$(OPENOCD_VERSION)/openocd-$(OPENOCD_VERSION).tar.bz2
 OPENOCD_PATCHES    := $(TOOLCHAIN_PATCHDIR)/openocd_arm7m_registers.diff
 
 # Download
